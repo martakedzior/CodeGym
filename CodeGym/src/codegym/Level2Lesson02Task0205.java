@@ -9,13 +9,13 @@ package codegym;
  *
  * @author Marta
  */
-public class Level1Lesson8Task0128 {
+public class Level2Lesson02Task0205 {
     public static void main(String[] args) {
-        suma(2, 2);
+        hakujWynagrodzenie(7000);
     }
 
-    public static void suma(int a, int b) {
-        int c = a + b;
-        System.out.print(c);
-    }    
+    public static void hakujWynagrodzenie(int a) {
+        a = a + 1000;
+        System.out.println("Twoja pensja to: " + a + " złotych na miesiąc.");
+    }  
 }

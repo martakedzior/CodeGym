@@ -9,13 +9,10 @@ package codegym;
  *
  * @author Marta
  */
-public class CodeGym {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Level2Lesson02Task0207 {
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+        int a = 34, b = 45;
+        System.out.println(a + b);
+        System.out.println(a * b);
+    }    
 }
